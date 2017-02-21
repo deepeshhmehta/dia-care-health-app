@@ -1880,7 +1880,7 @@ angular.module('PasswordConfirm', []).directive('changePasswordC', function () {
             $scope.recId = [];
             $scope.recIds = [];
             $scope.orderRec = 0;
-            $scope.userId = get('id');
+            // $scope.userId = get('id');
             $scope.patientId = get('id');
             $scope.repeatFreq = [];
             $scope.repeatNo = [];
